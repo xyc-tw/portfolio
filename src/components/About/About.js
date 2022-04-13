@@ -1,4 +1,5 @@
 import "./About.css";
+import portray from "./portray.jpeg";
 
 function About() {
   return (
@@ -6,12 +7,7 @@ function About() {
       <p className="sectionTitle">ABOUT ME</p>
       <div className="intro">
         <div className="pic">
-          <img
-            src="/images/portray.jpeg"
-            alt="portray"
-            width="500"
-            height="auto"
-          />
+          <img src={portray} alt="portray" width="500" height="auto" />
         </div>
         <div className="text">
           <p>

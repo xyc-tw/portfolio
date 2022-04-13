@@ -1,6 +1,10 @@
 import Tilt from "react-tilt";
 import "./Projects.css";
 
+import taiwanguide from "./images/taiwanguide.jpeg";
+import smartbrain from "./images/smart-brain.jpeg";
+import robofriends from "./images/robofriends.jpeg";
+
 function Projects() {
   return (
     <div id="projects" className="section">
@@ -28,7 +32,7 @@ function Projects() {
         </div>
         <Tilt className="pic Tilt" options={{ max: 25 }}>
           <img
-            src="/images/taiwanguide.jpeg"
+            src={taiwanguide}
             alt="Taiwan Guide"
             className="projectPic Tilt-inner"
           />
@@ -57,7 +61,7 @@ function Projects() {
         </div>
         <Tilt className="pic Tilt" options={{ max: 25 }}>
           <img
-            src="/images/smart-brain.jpeg"
+            src={smartbrain}
             alt="Smart Brain"
             className="projectPic Tilt-inner"
           />
@@ -91,7 +95,7 @@ function Projects() {
         </div>
         <Tilt className="pic Tilt" options={{ max: 25 }}>
           <img
-            src="/images/robofriends.jpeg"
+            src={robofriends}
             alt="Robofriends"
             className="projectPic Tilt-inner"
           />

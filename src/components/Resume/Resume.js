@@ -1,4 +1,13 @@
 import "./Resume.css";
+import html from "./logos/html.png";
+import css from "./logos/css.png";
+import js from "./logos/js.png";
+import react from "./logos/react.png";
+import java from "./logos/java.png";
+import mySQL from "./logos/mySQL.png";
+import ps from "./logos/photoshop.png";
+import illu from "./logos/illustrator.png";
+import inDesign from "./logos/inDesign.png";
 
 function Resume() {
   return (
@@ -34,19 +43,15 @@ function Resume() {
         <hr />
         <p className="subTitle">Skills</p>
         <div className="skills">
-          <img src="/images/html.png" alt="HTML" className="skill" />
-          <img src="/images/css.png" alt="CSS" className="skill" />
-          <img src="/images/js.png" alt="JavaScript" className="skill" />
-          <img src="/images/react.png" alt="React" className="skill" />
-          <img src="/images/java.png" alt="Java" className="skill" />
-          <img src="/images/mySQL.png" alt="MySQL" className="skill" />
-          <img src="/images/photoshop.png" alt="Photoshop" className="skill" />
-          <img
-            src="/images/illustrator.png"
-            alt="Illustrator"
-            className="skill"
-          />
-          <img src="/images/inDesign.png" alt="InDesign" className="skill" />
+          <img src={html} alt="HTML" className="skill" />
+          <img src={css} alt="CSS" className="skill" />
+          <img src={js} alt="JavaScript" className="skill" />
+          <img src={react} alt="React" className="skill" />
+          <img src={java} alt="Java" className="skill" />
+          <img src={mySQL} alt="MySQL" className="skill" />
+          <img src={ps} alt="Photoshop" className="skill" />
+          <img src={illu} alt="Illustrator" className="skill" />
+          <img src={inDesign} alt="InDesign" className="skill" />
         </div>
       </div>
     </div>
