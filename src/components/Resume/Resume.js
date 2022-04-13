@@ -38,6 +38,7 @@ function Resume() {
           <img src="/images/css.png" alt="CSS" className="skill" />
           <img src="/images/js.png" alt="JavaScript" className="skill" />
           <img src="/images/react.png" alt="React" className="skill" />
+          <img src="/images/java.png" alt="Java" className="skill" />
           <img src="/images/mySQL.png" alt="MySQL" className="skill" />
           <img src="/images/photoshop.png" alt="Photoshop" className="skill" />
           <img

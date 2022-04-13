@@ -67,7 +67,7 @@ class Home extends Component {
               color: "var(--color-text)",
             }}
           >
-            &nbsp;Front-end developer
+            &nbsp;Software developer
           </p>
         </div>
       </div>
