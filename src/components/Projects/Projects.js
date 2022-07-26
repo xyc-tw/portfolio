@@ -2,6 +2,7 @@ import Tilt from "react-tilt";
 import "./Projects.css";
 
 import taiwanguide from "./images/taiwanguide.jpeg";
+import gtd from "./images/gtd.png";
 import smartbrain from "./images/smart-brain.jpeg";
 import robofriends from "./images/robofriends.jpeg";
 
@@ -34,6 +35,37 @@ function Projects() {
           <img
             src={taiwanguide}
             alt="Taiwan Guide"
+            className="projectPic Tilt-inner"
+          />
+        </Tilt>
+      </div>
+      <div className="project">
+        <div className="text">
+          <p className="projectTitle">Getting Things Done</p>
+          <p>
+            A self-management App based on the book by by David Allen, using
+            Laravel Framwork and is deployed with Heroku.
+          </p>
+          <div className="buttons">
+            <div className="button">
+              <a href="http://gtd-2022.herokuapp.com" target="_blank">
+                <span>Live</span>
+              </a>
+            </div>
+            <div className="button">
+              <a
+                href="https://github.com/xyc-tw/Getting-Things-Done"
+                target="_blank"
+              >
+                <span>Code</span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <Tilt className="pic Tilt" options={{ max: 25 }}>
+          <img
+            src={gtd}
+            alt="Getting Things Done"
             className="projectPic Tilt-inner"
           />
         </Tilt>

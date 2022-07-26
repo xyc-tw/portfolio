@@ -5,6 +5,8 @@ import js from "./logos/js.png";
 import react from "./logos/react.png";
 import java from "./logos/java.png";
 import mySQL from "./logos/mySQL.png";
+import php from "./logos/php.png";
+import laravel from "./logos/laravel.png";
 import ps from "./logos/photoshop.png";
 import illu from "./logos/illustrator.png";
 import inDesign from "./logos/inDesign.png";
@@ -29,16 +31,25 @@ function Resume() {
         </div>
         <div class="item">
           <p class="time">2002.09 - 2006.06</p>
-          <p>
-            Bachelor of Architecture degree, National Cheng Kung University,
-            Tainan, Taiwan
-          </p>
+          <p>Bachelor of Architecture degree, NCKU, Tainan, Taiwan</p>
         </div>
         <hr />
         <p className="subTitle">Professional practices</p>
         <div class="item">
-          <p class="time">2015.05 -</p>
+          <p class="time">2015.05 - 2022.06</p>
           <p>Klaus Roth Architekten , Berlin, Germany</p>
+        </div>
+        <div class="item">
+          <p class="time">2012.12 - 2014.02</p>
+          <p>Cellulose Design Company, ChongQing, China</p>
+        </div>
+        <div class="item">
+          <p class="time">2011.06 - 2012.09</p>
+          <p>JCW Architects, Taichung, Taiwan</p>
+        </div>
+        <div class="item">
+          <p class="time">2006.09 - 2008.10</p>
+          <p>J.C.Yang Architect & Associates, Taipei, Taiwan</p>
         </div>
         <hr />
         <p className="subTitle">Skills</p>
@@ -49,6 +60,8 @@ function Resume() {
           <img src={react} alt="React" className="skill" />
           <img src={java} alt="Java" className="skill" />
           <img src={mySQL} alt="MySQL" className="skill" />
+          <img src={php} alt="PHP" className="skill" />
+          <img src={laravel} alt="Laravel" className="skill" />
           <img src={ps} alt="Photoshop" className="skill" />
           <img src={illu} alt="Illustrator" className="skill" />
           <img src={inDesign} alt="InDesign" className="skill" />
