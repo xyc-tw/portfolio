@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.b6f3a036.css",
-    "main.js": "/portfolio/static/js/main.27013323.js",
+    "main.js": "/portfolio/static/js/main.3ba05630.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/gtd.png": "/portfolio/static/media/gtd.cdd97c529e3ccaf1a7b5.png",
     "static/media/smart-brain.jpeg": "/portfolio/static/media/smart-brain.c617a0b823ab16e0e3f0.jpeg",
     "static/media/robofriends.jpeg": "/portfolio/static/media/robofriends.c85add3a8f72397faba4.jpeg",
     "static/media/taiwanguide.jpeg": "/portfolio/static/media/taiwanguide.cd8f7ea54cae173c7ebd.jpeg",
@@ -11,18 +12,20 @@
     "static/media/css.png": "/portfolio/static/media/css.be96e74ac2d2389d336c.png",
     "static/media/react.png": "/portfolio/static/media/react.e524448ac4ad3a163ceb.png",
     "static/media/mySQL.png": "/portfolio/static/media/mySQL.6236e574836be82fb10a.png",
+    "static/media/php.png": "/portfolio/static/media/php.e43aaee0d4bee5aff06d.png",
     "static/media/java.png": "/portfolio/static/media/java.56ab1ecb747b5e9598d5.png",
+    "static/media/laravel.png": "/portfolio/static/media/laravel.4ebcdf924304f89e3f2a.png",
     "static/media/photoshop.png": "/portfolio/static/media/photoshop.3b973a965f0f7b827011.png",
     "static/media/js.png": "/portfolio/static/media/js.a724d7a5b9d754d5f49d.png",
     "static/media/illustrator.png": "/portfolio/static/media/illustrator.0e19995f4a8f2ad83f64.png",
     "static/media/inDesign.png": "/portfolio/static/media/inDesign.e5f59dee8dd0ebada73c.png",
     "index.html": "/portfolio/index.html",
     "main.b6f3a036.css.map": "/portfolio/static/css/main.b6f3a036.css.map",
-    "main.27013323.js.map": "/portfolio/static/js/main.27013323.js.map",
+    "main.3ba05630.js.map": "/portfolio/static/js/main.3ba05630.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b6f3a036.css",
-    "static/js/main.27013323.js"
+    "static/js/main.3ba05630.js"
   ]
 }
